@@ -406,6 +406,30 @@ footer {
 }
 
 
+/* ── MOBILE SOCIALS ── */
+.mob-socials{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  align-items:center;
+  justify-content:space-around;
+  width:100%;
+  padding-top:16px;
+  margin-top:8px;
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+.mob-socials a{
+  color:var(--slate);
+  transition:var(--transition);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 16px;
+  flex:1;
+}
+.mob-socials a:hover{color:var(--green)}
+.mob-socials svg{width:22px;height:22px}
+
 /* ── RESPONSIVE ── */
 @media(max-width:1080px){
   main{padding:0 60px}
